@@ -1,8 +1,11 @@
 const chai = require("chai");
 const expect = chai.expect;
 
-describe("smoke test", function() {
-  it("checks equality", function() {
-    expect(true).to.be.true;
+const index = require('../index');
+
+describe("smoke test", () => {
+  it("Should run npm test", () => {
+    let testStatus = index.runTest();
+    expect(testStatus).to.not.be.undefined;
   });
 });
