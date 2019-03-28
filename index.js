@@ -5,3 +5,8 @@ module.exports.runTest = () => {
     let testProcess = spawn('npm', ['test'])
     return testProcess.status;
 };
+
+module.exports.getModule = (name, repository) => {
+    let testClone = spawn('git', ['clone', repository ])
+    return testClone;
+}
