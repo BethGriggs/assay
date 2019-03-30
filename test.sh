@@ -18,5 +18,3 @@ nvm install $NODE_VERSION || exit 1
 
 npm install 
 npm test
-
-echo $? 

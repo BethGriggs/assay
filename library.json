@@ -1,0 +1,10 @@
+{
+    "express": {
+        "MODULE_VERSION": "4.16.4",
+        "MODULE_REPOSITORY": "git@github.com:expressjs/express.git"
+    },
+    "koa": {
+        "MODULE_VERSION": "2.7.0",
+        "MODULE_REPOSITORY": "https://github.com/koajs/koa"
+    }
+}
