@@ -19,8 +19,8 @@
     "url": "https://github.com/BethGriggs/assay/issues"
   },
   "homepage": "https://github.com/BethGriggs/assay#readme",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.0.2"
+  "devDependencies": {},
+  "dependencies": {
+    "commander": "^2.19.0"
   }
 }
