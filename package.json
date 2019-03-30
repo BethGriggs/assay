@@ -20,7 +20,5 @@
   },
   "homepage": "https://github.com/BethGriggs/assay#readme",
   "devDependencies": {},
-  "dependencies": {
-    "commander": "^2.19.0"
-  }
+  "dependencies": {}
 }

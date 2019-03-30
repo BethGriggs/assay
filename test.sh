@@ -12,7 +12,10 @@ mkdir -p assay/$MODULE
 cd assay/$MODULE
 
 git clone --depth 1 -b $MODULE_VERSION $MODULE_REPOSITORY .
-nvm use 10.15.3
+
+# Install Node.js version specified or exit
+nvm install $NODE_VERSION || exit 1
+
 npm install 
 npm test
 
